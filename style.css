@@ -1,0 +1,146 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Theme chromas */
+html {
+  /* primary */
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+
+  /* Secondary */
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(images/bg-pattern-top-desktop.svg) no-repeat,url(images/bg-pattern-bottom-desktop.svg) no-repeat bottom left;
+}
+main {
+    margin-top: 6rem;
+    width: 80vw;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    height: auto;
+}
+.head-content{
+    width: 40%;
+}
+.head-content h1{
+    color: var(--Very-Dark-Magenta);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.head-content p{
+color: var(--Dark-Grayish-Magenta);
+line-height: 1.5;
+}
+.ratings div{
+    background-color: var(--Light-Grayish-Magenta);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+.ratings div span{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+}
+.rating1{
+    left: -5rem;
+}
+.rating2{
+    left: -2.5rem;
+}
+article{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.users{
+    position: relative;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+    margin-right: 2rem;
+    color: var(--White);
+    padding: 3rem 2rem 3rem 2rem;
+}
+.users p{
+    line-height: 1.5;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.header img{
+    width: 20%;
+    border-radius: 50%;
+}
+.header div{
+    width: 70%;
+}
+.header div p{
+    color: var(--Soft-Pink);
+}
+.user1{
+    top: -2rem;
+}
+.user3{
+    top: 2rem;
+}
+@media (max-width:900px) {
+    span{
+        display: block;
+    }
+    .rating1{
+        left: 0rem;
+    }
+    .rating2{
+        left: 0rem;
+    }
+}
+@media (max-width:700px) {
+    main{
+        margin-bottom: 5rem;
+    }
+    .top{
+        text-align: center;
+    }
+    .head-content{
+        width: 100%;
+    }
+    .ratings{
+        width: 100%;
+    }
+    .ratings div{
+        position: static;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    article{
+        flex-direction: column;
+    }
+    .users{
+        margin-right: 0rem;
+    }
+}
