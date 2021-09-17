@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend](https://your-solution-url.com)
+- Solution URL: [Frontend](https://www.frontendmentor.io/solutions/html5-markup-flexbox-desktopfirst-workflow-and-css-properties-bYRINGf2Y)
 - [Live Site URL](https://rajni2002.github.io/Social-proof-section.github.io/)
 
 ## My process
