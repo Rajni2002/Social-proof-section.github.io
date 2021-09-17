@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Rajni2002/Social-proof-section.github.io/blob/main/images/Screenshot%202021-09-17%20at%2011.11.46%20PM.png)
 
 ### Links
 
